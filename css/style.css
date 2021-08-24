@@ -42,24 +42,32 @@ body {
 }
 
 .imagem-usuario img {
-    border: 5px solid white;
+    border: 6px solid white;
     width: 30%;
     height: auto;
     border-radius: 50%;
-    transition: 2s;
 }
 
 .dados-usuario {
     display: flex;
     flex-direction: column;
+    height: 30%;
     text-align: center;
 }
 
 .dados-usuario h1 {
-    margin: 1rem 0 0.5rem 0;
+    margin: 1.5rem 0 0.5rem 0;
     font-weight: 700;
 }
 
 .dados-usuario h2 {
     margin: 0.5rem 0 1rem 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
 }
