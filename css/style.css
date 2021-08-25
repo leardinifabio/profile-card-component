@@ -27,18 +27,18 @@ body {
 }
 
 .disposicao-imagem {
-    background-image: url("/images/bg-pattern-card.svg");
-    width: auto;
     height: 40%;
+    width: auto;
+    background-image: url("/images/bg-pattern-card.svg");
     border-radius: 1rem 1rem 0 0;
 }
 
 .imagem-usuario {
+    height: 10%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     width: auto;
-    height: 10%;
 }
 
 .imagem-usuario img {
@@ -49,9 +49,9 @@ body {
 }
 
 .dados-usuario {
+    height: 30%;
     display: flex;
     flex-direction: column;
-    height: 30%;
     text-align: center;
 }
 
@@ -62,6 +62,48 @@ body {
 
 .dados-usuario h2 {
     margin: 0.5rem 0 1rem 0;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: hsl(0, 0%, 59%);
+    border: none;
+}
+
+.estatisticas-usuario {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.estatisticas-usuario span {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+h3 {
+    margin: 0 1rem;
+    line-height: 0.8rem;
+    font-weight: 700;
+}
+
+h3 span {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.attribution {
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
 }
 
 a:link,
