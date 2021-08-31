@@ -16,8 +16,8 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 
     background-image:
-        url("./images/bg-pattern-top.svg"),
-        url("./images/bg-pattern-bottom.svg");
+        url('./images/bg-pattern-top.svg'),
+        url('./images/bg-pattern-bottom.svg');
     background-position:
         0ch -40ch,
         100ch 40ch;
@@ -49,7 +49,7 @@ body {
 .disposicao-imagem {
     height: 40%;
     width: auto;
-    background-image: url("./images/bg-pattern-card.svg");
+    background-image: url('./images/bg-pattern-card.svg');
     border-radius: 1rem 1rem 0 0;
 }
 
